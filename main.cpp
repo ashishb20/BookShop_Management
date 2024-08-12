@@ -121,10 +121,10 @@ public:
             }
         }
         cout<<"Book not Found."<<endl;
-        return nullptr; // Add this line to return nullptr if the book is not found
+        return nullptr; 
     }
  
-    // Add more functionalities like delete, search, etc., based on your requirements
+
 };
  
 int main() {
@@ -133,7 +133,7 @@ int main() {
  
     char choice;
     do {
-        // cout << "Menu:\n1. Add Book\n2. Display All Books\n3. Modify Book\n4. Exit\nEnter your choice: ";
+        
         cout << "Bookshop Management System Menu:\n";
         cout << "1. Add Book\n";
         cout << "2. Display All Books\n";
